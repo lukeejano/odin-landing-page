@@ -29,7 +29,7 @@ a {
 }
 
 .left {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -57,15 +57,75 @@ a {
     height: 150px;
 }
 
+.title {
+    text-align: center;
+    padding: 25px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding-bottom: 25px;
+}
 
 .container {
     width: 125px;
     height: 200px;
-    background-color:blue;
 }
 
 .card {
     width: 125px;
     height: 125px;
     background-color: aqua;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.card-text {
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+.main-quote {
+    font-size: 24px;
+    text-align: center;
+}
+
+.quote-name {
+    text-align: end;
+    font-weight: 700;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    height: 100px;
+    width: 650px;
+    margin: 100px 0;
+    background-color: blue;
+    border-radius: 6px;
+}
+
+.banner-content {
+    padding: 30px 0 30px 70px;
+    color: white;
+}
+
+.banner-text {
+    display: flex;
+    gap: 50px;
+}
+
+.banner-button {
+    
 }
