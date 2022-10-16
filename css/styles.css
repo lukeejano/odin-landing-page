@@ -7,6 +7,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -44,6 +45,7 @@ a {
 .hero {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 70px 70px;
 }
 
@@ -129,7 +131,7 @@ a {
 
 .quote-name {
     text-align: end;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .banner-container {
@@ -139,7 +141,7 @@ a {
 
 .banner {
     height: 100px;
-    width: 650px;
+    width: 700px;
     margin: 100px 0;
     background-color: #3882f6;
     border-radius: 6px;
@@ -161,6 +163,10 @@ a {
     border: 2px solid white;
     padding: 6px 17px;
     border-radius: 9px;   
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
 }
 
 .footer {
